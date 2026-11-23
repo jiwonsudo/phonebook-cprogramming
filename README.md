@@ -1,10 +1,16 @@
-# Phonebook Manager
+<div align="center">
 
-`Phonebook Manager`는 C 언어와 NCURSES 라이브러리를 사용한 전화번호부 관리 프로그램입니다.
-프로그램은 `data.txt` 파일에서 전화번호 데이터를 읽어 오고, 실행 중에 검색, 추가, 삭제, 전체 목록 보기 기능을 제공합니다.
-프로그램 종료 시 현재 전화번호부 내용을 다시 `data.txt`에 저장합니다.
+# 📒 Phonebook Manager
 
-실행 파일 이름은 과제 요구사항에 맞게 `tel`입니다.
+**C와 NCURSES로 만든 터미널 전화번호부 관리 프로그램**
+
+<img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white" alt="C">
+<img src="https://img.shields.io/badge/NCURSES-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="NCURSES">
+<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=white" alt="Linux">
+
+</div>
+
+`data.txt`에서 전화번호 데이터를 읽어 와 **검색 · 추가 · 삭제 · 전체 목록 보기**를 제공하고, 종료할 때 현재 내용을 다시 `data.txt`에 저장합니다. 실행 파일 이름은 과제 요구사항에 맞춰 `tel`입니다. 자세한 설계는 [wiki/](wiki/Home.md) 문서에 정리되어 있습니다.
 
 ## Source Files
 
